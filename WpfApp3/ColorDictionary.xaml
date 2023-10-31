@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=netstandard">
+    <LinearGradientBrush x:Key="mainColor" >
+        <GradientStop Color="SpringGreen" Offset="0"></GradientStop>
+        <GradientStop Color="Orange" Offset="0.5"></GradientStop>
+        <GradientStop Color="DeepSkyBlue" Offset="1"></GradientStop>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="secondColor" >
+        <GradientStop Color="DeepPink" Offset="0"></GradientStop>
+        <GradientStop Color="DeepSkyBlue" Offset="1"></GradientStop>
+    </LinearGradientBrush>
+
+    <sys:Double x:Key="GeneralSize" >30</sys:Double>
+</ResourceDictionary>
